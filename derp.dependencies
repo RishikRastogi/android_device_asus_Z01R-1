@@ -1,0 +1,10 @@
+[
+  {
+    "repository": "kernel_z01r",
+    "target_path": "kernel/asus/sdm845"
+  }
+  {
+    "repository": "vendor/asus",
+    "target_path": "vendor/asus"
+  }
+]
