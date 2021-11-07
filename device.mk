@@ -317,10 +317,6 @@ PRODUCT_PACKAGES += \
     android.hardware.light@2.0-service.asus_Z01R \
     lights.sdm845
 
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sdm
-
 # Media
 PRODUCT_PACKAGES += \
     libavservices_minijail \
@@ -451,14 +447,6 @@ PRODUCT_PACKAGES += \
 
 # Treble
 PRODUCT_USE_VNDK_OVERRIDE := true
-
-# Trust HAL
-PRODUCT_PACKAGES += \
-    vendor.lineage.trust@1.0-service
-
-# Touch
-PRODUCT_PACKAGES += \
-    lineage.touch@1.0-service.asus_Z01R
 
 # Update engine
 PRODUCT_PACKAGES += \
