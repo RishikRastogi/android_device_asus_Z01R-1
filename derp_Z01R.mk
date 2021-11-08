@@ -39,6 +39,9 @@ TARGET_VENDOR_DEVICE_NAME := Z01R
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE=ASUS_Z01R_1 \
     PRODUCT_NAME=WW_Z01RD \
-    PRIVATE_BUILD_DESC="raven-user 12 SD1A.210817.036 7805805 release-keys"
+    PRIVATE_BUILD_DESC="redfin-user 12 SPB5.210812.002 7671067 release-keys"
 
-BUILD_FINGERPRINT := google/raven/raven:12/SD1A.210817.036/7805805:user/release-keys
+BUILD_FINGERPRINT := "google/redfin/redfin:12/SPB5.210812.002/7671067:user/release-keys
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.build.fingerprint=google/redfin/redfin:12/SPB5.210812.002/7671067:user/release-keys
