@@ -23,15 +23,18 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/product_launched_with_o.mk)
 $(call inherit-product, device/asus/Z01R/device.mk)
 
 # Inherit some common DerpFest stuff.
-$(call inherit-product, vendor/derp/config/common_full_phone.mk)
+$(call inherit-product, vendor/cherish/config/common_full_phone.mk)
 
 PRODUCT_BRAND := asus
 PRODUCT_DEVICE := Z01R
 PRODUCT_MANUFACTURER := asus
 PRODUCT_MODEL := Zenfone 5Z
-PRODUCT_NAME := derp_Z01R
+PRODUCT_NAME := cherish_Z01R
 
 PRODUCT_GMS_CLIENTID_BASE := android-asus
+
+WITH_GMS := true
+TARGET_INCLUDE_STOCK_ARCORE := false
 
 TARGET_VENDOR_PRODUCT_NAME := Z01R
 TARGET_VENDOR_DEVICE_NAME := Z01R
