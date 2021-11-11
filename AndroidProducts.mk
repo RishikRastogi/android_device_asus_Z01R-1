@@ -15,7 +15,7 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/derp_Z01R.mk
+    $(LOCAL_DIR)/evolution_Z01R.mk
 
 COMMON_LUNCH_CHOICES := \
     derp_Z01R-user \
